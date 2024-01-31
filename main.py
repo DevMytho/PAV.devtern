@@ -57,7 +57,7 @@ def takeCommand():
          
         print("Listening...")
         r.pause_threshold = 1
-        audio = r.listen(source, )
+        audio = r.listen(source, phrase_time_limit=3)
   
     try:
         print("Recognizing...")    
@@ -142,8 +142,6 @@ if __name__ == '__main__':
         elif "who made you" in query or "who created you" in query: 
             speak("I have been created by Dev.")
              
-        elif 'joke' in query:
-            speak(pyjokes.get_joke())
              
         elif "calculate" in query: 
              
