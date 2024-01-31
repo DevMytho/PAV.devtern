@@ -141,8 +141,7 @@ if __name__ == '__main__':
  
         elif "who made you" in query or "who created you" in query: 
             speak("I have been created by Dev.")
-             
-             
+                       
         elif "calculate" in query: 
              
             app_id = "Wolframalpha api id"
