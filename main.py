@@ -69,11 +69,6 @@ def takeCommand():
         print("Unable to Recognize your voice.")  
         return "None"
     
-    r.adjust_for_ambient_noise(source) 
-    stop_listening = r.listen_in_background(source, callback)
-    for _ in range(50): time.sleep(0.1) 
-    stop_listening(wait_for_stop=False)
-    while True: time.sleep(0.1) 
     return query    
 
 
