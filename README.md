@@ -9,7 +9,7 @@ Voice Assistant Using Python
 > Speech Recognition <br>
 > Date time <br>
 > Pyttsx3 <br>
-> wolfram alpha <br>
+> Wolfram Alpha <br>
 > Json <br>
 > Wikipedia <br>
 > Subprocess <br>
