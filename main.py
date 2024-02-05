@@ -9,7 +9,7 @@ import json
 from urllib.request import urlopen
 import time
 
-engine = pyttsx3.init()    #here it uses espeaks inside the init parenthesis use spai5 to render in windows environment
+engine = pyttsx3.init()    #here it uses espeaks inside the init parenthesis use sapi5 to render in windows environment
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[11].id)
 engine.setProperty('rate', 180)
